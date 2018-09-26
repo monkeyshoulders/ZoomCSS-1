@@ -1,0 +1,211 @@
+/* Browser Reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ****************************MARGIN************************************* */
+/* Margin for all sides */
+.margin--sm {
+  margin: 1rem;
+}
+
+.margin--med {
+  margin: 5rem;
+}
+
+.margin--lg {
+  margin: 10rem;
+}
+
+/* Margin for top only */
+.margin-top--sm {
+  margin-top: 1rem;
+}
+
+.margin-top--md {
+  margin-top: 5rem;
+}
+
+.margin-top--lg {
+  margin-top: 10rem;
+}
+
+/* Margin for bottom only */
+.margin-bottom--sm {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom--md {
+  margin-bottom: 5rem;
+}
+
+.margin-bottom--lg {
+  margin-bottom: 10rem;
+}
+
+/* Margin for left only */
+.margin-left--sm {
+  margin-left: 1rem;
+}
+
+.margin-left--md {
+  margin-left: 5rem;
+}
+
+.margin-left--lg {
+  margin-left: 10rem;
+}
+
+/* Margin right only */
+.margin-right--sm {
+  margin-right: 1rem;
+}
+
+.margin-right--md {
+  margin-right: 5rem;
+}
+
+.margin-right--lg {
+  margin-right: 10rem;
+}
+
+/* ***************************PADDING************************************** */
+
+/* padding for all sides */
+.padding--sm {
+  padding: 1rem;
+}
+
+.padding--med {
+  padding: 5rem;
+}
+
+.padding--lg {
+  padding: 10rem;
+}
+
+/* padding for top only */
+.padding-top--sm {
+  padding-top: 1rem;
+}
+
+.padding-top--md {
+  padding-top: 5rem;
+}
+
+.padding-top--lg {
+  padding-top: 10rem;
+}
+
+/* padding for bottom only */
+.padding-bottom--sm {
+  padding-bottom: 1rem;
+}
+
+.padding-bottom--md {
+  padding-bottom: 5rem;
+}
+
+.padding-bottom--lg {
+  padding-bottom: 10rem;
+}
+
+/* padding for left only */
+.padding-left--sm {
+  padding-left: 1rem;
+}
+
+.padding-left--md {
+  padding-left: 5rem;
+}
+
+.padding-left--lg {
+  padding-left: 10rem;
+}
+
+/* padding right only */
+.padding-right--sm {
+  padding-right: 1rem;
+}
+
+.padding-right--md {
+  padding-right: 5rem;
+}
+
+.padding-right--lg {
+  padding-right: 10rem;
+}
+
+/* ******************************FLEXBOX******************************** */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.centered {
+  justify-content: center;
+  align-content: center;
+}
+
+.center-top {
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.center-bottom {
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.center-left {
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.center-right {
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.left-top {
+  justify-content: flex-start;
+  align-content: flex-start; 
+}
+
+.left-bottom {
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.left-center {
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.right-top {
+  justify-content: flex-end;
+  align-content: flex-start;
+}
+
+.right-bottom {
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.right-center {
+  justify-content: flex-end;
+  align-content: center;
+}
+
+/* *****************************GRID**************************************** */
